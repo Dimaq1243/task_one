@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Лабораторна робота №2</title>
+</head>
+<body>
+    <h2><strong>Завдання 2 -</strong>  <i> <small>Програмний код</small></i> </h2>
+    <hr>
+    <p><b>Умова 1:</b> На площині задані обмежена лініями область <i>R</i> і точки <i>A(x<sub>1,</sub>y<sub>1</sub>), B(x<sub>2,</sub>y<sub>2</sub>),
+        C(x<sub>3,</sub>y<sub>3</sub>)</i>
+    </p>
+    <p><b><i>Розроботи:</i></b> програму, яка обчислює периметр і площу трикутника <i>АВС</i>, якщо точки <i>А, В, С</i> належать області <i>R</i> і не лежать на <br> одній прямій, інакше виводити відповідне повідомлення.</p>
+    <hr color="#00FF00" size="15" style="width: 22%" align="left">
+    <p><b>Умова 2:</b> Найти помилки у вказаному коді</p>
+    <code>
+           ?php<br>
+           // Output: 0.69458310943776<<br>
+           echo mt_rand(0, mt_getrandmax())/mt_getrandmax();<br>
+           function mt_random_float($min, $max) {<br>
+           $float_part = mt_rand(0, mt_getrandmax())/mt_getrandmax();<br>
+           $integer_part = mt_rand($min, $max - 1);<br>
+           return $integer_part + $float_part;<br>
+           // Output: 10.199064863938<br>
+           echo mt_random_float(10, 11);<br>
+           // Output: 35.540808309121<br>
+           echo mt_random_float(15, 50);<br>
+           ?>
+    </code>
+    <hr color="#00FF00" size="15" style="width: 22%" align="left">
+    <p><b>Умова 3: </b>Попробуйте вивести на екран</p>
+    <pre>
+	 -                -----
+	 -----           |-----
+	||----|          ----||
+	||-----         -----||
+	||-----|       |-----||
+	|| -----       ------||
+	||- ----|     |------||
+	||---||--     -------||
+	||--|| --|   |-------||
+	|| -|| |--   --- - --||
+	|| -||  --|-|--| - ---|
+	|---||  |-----| |-----|
+	|---||   |----  |-----|
+	|----|    ---   |-----|
+	|-----          ------|
+    </pre>
+    <hr color="#00FF00" size="15" style="width: 22%" align="left">
+    <p><b>Умова 4:</b>Оформлення цитат і визначень</p>
+    Мова <abbr title="HTML - це мова розмітки, яка використовується для розміщення елементів (тексту, картинок, кнопок,таблиць тощо) на сторінці.">HTML</abbr> інтерпретується браузерами, тобто форматований текст відображається на екрані монітора комп'ютера або мобільного пристрою
+    <div align="center"><h2><b>Приклади цитат:</b></h2></div>
+    <p>1.Станіслав Лец стверджував: <q>Найчастіше вихід там, де був вхід.</q></p>
+    <p>2.Як гарно змальовує весняну пору року Є. Гуцало:</p>
+    <blockquote>
+        Весна зіткала вчора гобелен у лузі — з трав, із квітів, з верболозів.<br>
+        Зіткала вітер і зіткала клен, грози зіткала молоді погрози.
+    </blockquote>
+    <p><cite>https://disted.edu.vn.ua/courses/learn/2811</cite></p>
+    <hr>
+    <div align="center"><i>Виконавець Тріпалін Дмитро Сергійович</i></div>
+    <hr>
+
+</body>
+</html>
